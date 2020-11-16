@@ -1,0 +1,20 @@
+body{
+    background: $main-bg-color;
+    color: $main-text-color;
+}
+
+main{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        font-family: 'DM Serif Display', serif;
+        font-size: $header-size;
+    }
+    img{
+        max-width: 60%;
+        padding: 0 50px;
+    }
+}
