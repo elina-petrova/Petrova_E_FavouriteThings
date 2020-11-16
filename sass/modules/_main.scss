@@ -1,0 +1,16 @@
+body{
+    background: $main-bg-color;
+    color: $main-text-color;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1{
+        padding: 5% 0;
+        font-family: 'DM Serif Display', serif;
+        font-size: $header-size;
+    }
+}
